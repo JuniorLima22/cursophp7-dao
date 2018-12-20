@@ -55,7 +55,6 @@
 				$this->setDessenha($row['dessenha']);
 				$this->setDtcadastro(new DateTime($row['dtcadastro']));
 			}
-
 		}//End: loadById
 
 		public function __toString(){
